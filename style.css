@@ -69,7 +69,7 @@ button:hover {
 /* Responsive Design - Mobile Optimization */
 @media (max-width: 600px) {
     .login-container {
-        width: 90%; /* Smaller width for small screens */
+        width: 100%; /* Smaller width for small screens */
         padding: 15px;
     }
     button {
@@ -81,5 +81,10 @@ button:hover {
 @media (max-width: 900px) {
     .login-container {
         width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Adjusts for smaller screens */
     }
 }

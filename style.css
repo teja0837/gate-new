@@ -16,14 +16,14 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    width: 140%;
     max-width: 400px; /* Prevents stretching on large screens */
 }
 
 /* Input Fields */
 input {
-    width: 100%; /* Flexible width */
+    width: 90%; /* Flexible width */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -53,9 +53,9 @@ input {
 
 /* Button Styling */
 button {
-    width: 100%; /* Full width */
+    width: 95%; /* Full width */
     padding: 10px;
-    background: green;
+    background: rgb(71, 189, 2);
     color: white;
     border: none;
     border-radius: 5px;
@@ -63,13 +63,13 @@ button {
     font-size: 1rem;
 }
 button:hover {
-    background: darkgreen;
+    background: rgb(28, 123, 1);
 }
 
 /* Responsive Design - Mobile Optimization */
 @media (max-width: 600px) {
     .login-container {
-        width: 100%; /* Smaller width for small screens */
+        width: 90%; /* Smaller width for small screens */
         padding: 15px;
     }
     button {

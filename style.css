@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("Screenshot 2025-02-22 145110.png") no-repeat center center fixed;
+    background: url("Screenshot 2025-02-22 145110.png") no-repeat center;
     margin: 0;
     padding: 20px;
 }

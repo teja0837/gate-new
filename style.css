@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("Screenshot 2025-02-22 145110.png") no-repeat center;
+    background: url("Screenshot 2025-02-22 145110.png") no-repeat center center;
     margin: 0;
     padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     text-align: left;
     width: 140%;
     max-width: 400px; /* Prevents stretching on large screens */
